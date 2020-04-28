@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+BRAM instance_name (
+    .WRCLK(WRCLK), 
+    .WREN(WREN), 
+    .WE(WE), 
+    .WRADDR(WRADDR), 
+    .DI(DI), 
+    .RDCLK(RDCLK), 
+    .RDEN(RDEN), 
+    .RDADDR(RDADDR), 
+    .DO(DO)
+    );
+
+

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/BRAM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/testbram//BRAM.v" -module BRAM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

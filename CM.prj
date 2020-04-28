@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/BRAM.v"
+verilog work "CM.v"
