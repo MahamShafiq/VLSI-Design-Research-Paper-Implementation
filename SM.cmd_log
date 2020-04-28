@@ -1,0 +1,13 @@
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.v} -lang verilog -prj CEP -o SM.spl -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 SM.spl {C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.sym} 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -filter "C:/Users/maham/Desktop/My semester/vlsi/CEP/iseconfig/filter.filter" -ifn "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.xst" -ofn "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7a100t-csg324-3 "SM.ngc" SM.ngd  
+map -filter "C:/Users/maham/Desktop/My semester/vlsi/CEP/iseconfig/filter.filter" -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SM_map.ncd SM.ngd SM.pcf 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/SM.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//SM.v" -module SM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

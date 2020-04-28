@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/Mux8x1.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//Mux8x1.v" -module Mux8x1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/Mux8x1.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//Mux8x1.v" -module Mux8x1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

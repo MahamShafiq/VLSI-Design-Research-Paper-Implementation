@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/maham/Desktop/My semester/vlsi/CEP/Checkinallsignals_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Checkinallsignals" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/Checkinallsignals/Complete" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Complete</obj_property>
+      <obj_property name="ObjectShortName">Complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/LOCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LOCK</obj_property>
+      <obj_property name="ObjectShortName">LOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out9[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out8[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out7[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out6[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Out1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Out1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/clk1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk1</obj_property>
+      <obj_property name="ObjectShortName">clk1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/clk2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Select" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Select[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Select[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Addra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Addra[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Addrb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Addrb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Addrb[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/register1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">register1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/register2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">register2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/dina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/db" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">db[31:0]</obj_property>
+      <obj_property name="ObjectShortName">db[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/EN_BramRd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_BramRd</obj_property>
+      <obj_property name="ObjectShortName">EN_BramRd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/EN_BramWr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_BramWr</obj_property>
+      <obj_property name="ObjectShortName">EN_BramWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/W_A" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">W_A</obj_property>
+      <obj_property name="ObjectShortName">W_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/EN_B" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_B</obj_property>
+      <obj_property name="ObjectShortName">EN_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/EN_A" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_A</obj_property>
+      <obj_property name="ObjectShortName">EN_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/En_Steer" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">En_Steer</obj_property>
+      <obj_property name="ObjectShortName">En_Steer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Checkinallsignals/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,682 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: MainModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MainModule.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MainModule"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : MainModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" into library work
+Parsing module <CMT>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\Mux8x1.v" into library work
+Parsing module <Mux8x1>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\SM.v" into library work
+Parsing module <SM>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\Register32x2.v" into library work
+Parsing module <Registers32x2>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\Mux2x1.v" into library work
+Parsing module <Mux2x1>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\BRAM18.v" into library work
+Parsing module <BRAM18>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\CM.v" into library work
+Parsing module <CM>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\AGM.v" into library work
+Parsing module <AGM>.
+Analyzing Verilog file "C:\Users\maham\Desktop\My semester\vlsi\CEP\MainModule.v" into library work
+Parsing module <MainModule>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <MainModule>.
+
+Elaborating module <CMT>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <MMCME2_ADV(BANDWIDTH="OPTIMIZED",CLKOUT4_CASCADE="FALSE",COMPENSATION="ZHOLD",STARTUP_WAIT="FALSE",DIVCLK_DIVIDE=1,CLKFBOUT_MULT_F=10.0,CLKFBOUT_PHASE=0.0,CLKFBOUT_USE_FINE_PS="FALSE",CLKOUT0_DIVIDE_F=10.0,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT0_USE_FINE_PS="FALSE",CLKOUT1_DIVIDE=10,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.25,CLKOUT1_USE_FINE_PS="FALSE",CLKOUT2_DIVIDE=10,CLKOUT2_PHASE=180.0,CLKOUT2_DUTY_CYCLE=0.25,CLKOUT2_USE_FINE_PS="FALSE",CLKIN1_PERIOD=10.0,REF_JITTER1=0.01)>.
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 137: Assignment to clkfboutb_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 139: Assignment to clkout0b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 141: Assignment to clkout1b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 143: Assignment to clkout2b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 144: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 145: Assignment to clkout3b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 146: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 147: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 148: Assignment to clkout6_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 160: Assignment to do_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 161: Assignment to drdy_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 167: Assignment to psdone_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 170: Assignment to clkinstopped_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v" Line 171: Assignment to clkfbstopped_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <Mux2x1>.
+
+Elaborating module <BRAM18>.
+WARNING:HDLCompiler:1499 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\BRAM18.v" Line 39: Empty module <BRAM18> remains a black box.
+
+Elaborating module <Registers32x2>.
+
+Elaborating module <AGM>.
+WARNING:HDLCompiler:413 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\AGM.v" Line 36: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\AGM.v" Line 46: Result of 10-bit expression is truncated to fit in 9-bit target.
+
+Elaborating module <CM>.
+WARNING:HDLCompiler:1127 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\MainModule.v" Line 112: Assignment to Complete ignored, since the identifier is never used
+
+Elaborating module <SM>.
+
+Elaborating module <Mux8x1>.
+WARNING:HDLCompiler:634 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\MainModule.v" Line 58: Net <RESET> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MainModule>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\MainModule.v".
+INFO:Xst:3210 - "C:\Users\maham\Desktop\My semester\vlsi\CEP\MainModule.v" line 107: Output port <complete> of the instance <CM> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <RESET> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit tristate buffer for signal <Out9<7>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<6>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<5>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<4>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<3>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<2>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<1>> created at line 92
+    Found 1-bit tristate buffer for signal <Out9<0>> created at line 92
+    Summary:
+	inferred   8 Tristate(s).
+Unit <MainModule> synthesized.
+
+Synthesizing Unit <CMT>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\ipcore_dir\CMT.v".
+    Summary:
+	no macro.
+Unit <CMT> synthesized.
+
+Synthesizing Unit <Mux2x1>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\Mux2x1.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux2x1> synthesized.
+
+Synthesizing Unit <Registers32x2>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\Register32x2.v".
+    Found 32-bit register for signal <reg2>.
+    Found 32-bit register for signal <reg1>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <Registers32x2> synthesized.
+
+Synthesizing Unit <AGM>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\AGM.v".
+    Found 9-bit register for signal <addrb>.
+    Found 11-bit register for signal <addra>.
+    Found 11-bit adder for signal <addra[10]_GND_17_o_add_7_OUT> created at line 36.
+    Found 11-bit adder for signal <addra[10]_GND_17_o_add_10_OUT> created at line 37.
+    Found 9-bit adder for signal <addrb[8]_GND_17_o_add_17_OUT> created at line 46.
+    Found 11-bit comparator greater for signal <PWR_9_o_addra[10]_LessThan_6_o> created at line 35
+    Found 11-bit comparator greater for signal <addra[10]_PWR_9_o_LessThan_7_o> created at line 35
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   6 Multiplexer(s).
+Unit <AGM> synthesized.
+
+Synthesizing Unit <CM>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\CM.v".
+    Found 32-bit register for signal <i>.
+    Found 1-bit register for signal <ena>.
+    Found 1-bit register for signal <enwr>.
+    Found 3-bit register for signal <selectline>.
+    Found 1-bit register for signal <complete>.
+    Found 1-bit register for signal <resetaddr>.
+    Found 32-bit adder for signal <i[31]_GND_18_o_add_2_OUT> created at line 35.
+    Found 3-bit adder for signal <selectline[2]_selectline[2]_mux_5_OUT> created at line 50.
+    Found 32-bit comparator lessequal for signal <n0001> created at line 33
+    Found 32-bit comparator greater for signal <i[31]_GND_18_o_LessThan_12_o> created at line 56
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  39 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <CM> synthesized.
+
+Synthesizing Unit <SM>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\SM.v".
+WARNING:Xst:647 - Input <enable> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <SM> synthesized.
+
+Synthesizing Unit <Mux8x1>.
+    Related source file is "C:\Users\maham\Desktop\My semester\vlsi\CEP\Mux8x1.v".
+    Found 8-bit register for signal <out>.
+    Found 8-bit 8-to-1 multiplexer for signal <sel[2]_h[7]_wide_mux_1_OUT> created at line 36.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Mux8x1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 11-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 1
+ 9-bit adder                                           : 1
+# Registers                                            : 18
+ 1-bit register                                        : 4
+ 11-bit register                                       : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 3
+ 8-bit register                                        : 8
+ 9-bit register                                        : 1
+# Comparators                                          : 4
+ 11-bit comparator greater                             : 2
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 15
+ 1-bit 2-to-1 multiplexer                              : 1
+ 11-bit 2-to-1 multiplexer                             : 4
+ 8-bit 8-to-1 multiplexer                              : 8
+ 9-bit 2-to-1 multiplexer                              : 2
+# Tristates                                            : 8
+ 1-bit tristate buffer                                 : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/BRAM18.ngc>.
+Loading core <BRAM18> for timing and area information for instance <MM>.
+
+Synthesizing (advanced) Unit <CM>.
+The following registers are absorbed into counter <i>: 1 register on signal <i>.
+The following registers are absorbed into counter <selectline>: 1 register on signal <selectline>.
+Unit <CM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 11-bit adder                                          : 2
+ 32-bit adder                                          : 1
+ 9-bit adder                                           : 1
+# Counters                                             : 2
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 152
+ Flip-Flops                                            : 152
+# Comparators                                          : 4
+ 11-bit comparator greater                             : 2
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 15
+ 1-bit 2-to-1 multiplexer                              : 1
+ 11-bit 2-to-1 multiplexer                             : 4
+ 8-bit 8-to-1 multiplexer                              : 8
+ 9-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <complete> (without init value) has a constant value of 0 in block <CM>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Registers32x2> ...
+
+Optimizing unit <SM> ...
+
+Optimizing unit <MainModule> ...
+
+Optimizing unit <CM> ...
+
+Optimizing unit <AGM> ...
+INFO:Xst:3203 - The FF/Latch <CM/i_0> in Unit <MainModule> is the opposite to the following FF/Latch, which will be removed : <CM/selectline_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MainModule, actual ratio is 0.
+FlipFlop CM/i_0 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 186
+ Flip-Flops                                            : 186
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MainModule.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 394
+#      GND                         : 2
+#      INV                         : 3
+#      LUT1                        : 62
+#      LUT2                        : 8
+#      LUT3                        : 40
+#      LUT4                        : 13
+#      LUT5                        : 16
+#      LUT6                        : 83
+#      MUXCY                       : 69
+#      MUXF7                       : 32
+#      VCC                         : 2
+#      XORCY                       : 64
+# FlipFlops/Latches                : 218
+#      FD                          : 150
+#      FDE                         : 36
+#      FDRE                        : 32
+# RAMS                             : 1
+#      RAMB36E1                    : 1
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 210
+#      IBUF                        : 9
+#      IBUFG                       : 1
+#      OBUF                        : 200
+# Others                           : 1
+#      MMCME2_ADV                  : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             218  out of  126800     0%  
+ Number of Slice LUTs:                  225  out of  63400     0%  
+    Number used as Logic:               225  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    321
+   Number with an unused Flip Flop:     103  out of    321    32%  
+   Number with an unused LUT:            96  out of    321    29%  
+   Number of fully used LUT-FF pairs:   122  out of    321    38%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                         210
+ Number of bonded IOBs:                 210  out of    210   100%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    135     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                5  out of     32    15%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+Clock/clkout0                      | BUFG                     | 114   |
+clk2_OBUF(MUX_CLK/Mmux_S_CLK11:O)  | BUFG(*)(Register/reg2_31)| 106   |
+-----------------------------------+--------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                                                                                                            | Load  |
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+-------+
+MM/N1(MM/XST_GND:G)                | NONE(MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)| 4     |
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.371ns (Maximum Frequency: 296.639MHz)
+   Minimum input arrival time before clock: 2.204ns
+   Maximum output required time after clock: 1.145ns
+   Maximum combinational path delay: 0.302ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock/clkout0'
+  Clock period: 3.371ns (frequency: 296.639MHz)
+  Total number of paths / destination ports: 2068 / 113
+-------------------------------------------------------------------------
+Delay:               3.371ns (Levels of Logic = 32)
+  Source:            CM/i_0_1 (FF)
+  Destination:       CM/ena (FF)
+  Source Clock:      Clock/clkout0 rising
+  Destination Clock: Clock/clkout0 rising
+
+  Data Path: CM/i_0_1 to CM/ena
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.361   0.279  CM/i_0_1 (CM/i_0_1)
+     INV:I->O              1   0.113   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_lut<0>_INV_0 (CM/Madd_i[31]_GND_18_o_add_2_OUT_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<0> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<1> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<2> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<3> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<4> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<5> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<6> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<7> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<8> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<9> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<10> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<11> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<12> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<13> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<14> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<15> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<16> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<17> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<18> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<19> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<20> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<21> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<22> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<23> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<24> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<25> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<26> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<27> (CM/Madd_i[31]_GND_18_o_add_2_OUT_cy<27>)
+     XORCY:CI->O           1   0.370   0.556  CM/Madd_i[31]_GND_18_o_add_2_OUT_xor<28> (CM/i[31]_GND_18_o_add_2_OUT<28>)
+     LUT4:I0->O            2   0.097   0.515  CM/i[31]_GND_18_o_equal_4_o<31>1 (CM/i[31]_GND_18_o_equal_4_o<31>)
+     LUT6:I3->O            1   0.097   0.000  CM/ena_rstpot (CM/ena_rstpot)
+     FD:D                      0.008          CM/ena
+    ----------------------------------------
+    Total                      3.371ns (2.020ns logic, 1.351ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk2_OBUF'
+  Clock period: 1.873ns (frequency: 533.846MHz)
+  Total number of paths / destination ports: 109 / 73
+-------------------------------------------------------------------------
+Delay:               1.873ns (Levels of Logic = 3)
+  Source:            AGM/addrb_4 (FF)
+  Destination:       AGM/addrb_8 (FF)
+  Source Clock:      clk2_OBUF rising
+  Destination Clock: clk2_OBUF rising
+
+  Data Path: AGM/addrb_4 to AGM/addrb_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.361   0.534  AGM/addrb_4 (AGM/addrb_4)
+     LUT3:I0->O            1   0.097   0.379  AGM/Madd_addrb[8]_GND_17_o_add_17_OUT_cy<6>1_SW0 (N16)
+     LUT6:I4->O            2   0.097   0.299  AGM/Madd_addrb[8]_GND_17_o_add_17_OUT_cy<6>1 (AGM/Madd_addrb[8]_GND_17_o_add_17_OUT_cy<6>)
+     LUT4:I3->O            1   0.097   0.000  AGM/Mmux_addrb[8]_addrb[8]_mux_18_OUT91 (AGM/addrb[8]_addrb[8]_mux_18_OUT<8>)
+     FD:D                      0.008          AGM/addrb_8
+    ----------------------------------------
+    Total                      1.873ns (0.660ns logic, 1.213ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock/clkout0'
+  Total number of paths / destination ports: 88 / 46
+-------------------------------------------------------------------------
+Offset:              2.204ns (Levels of Logic = 4)
+  Source:            Clock/mmcm_adv_inst:LOCKED (PAD)
+  Destination:       CM/ena (FF)
+  Destination Clock: Clock/clkout0 rising
+
+  Data Path: Clock/mmcm_adv_inst:LOCKED to CM/ena
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    MMCME2_ADV:LOCKED      6   0.000   0.534  Clock/mmcm_adv_inst (LOCK_OBUF)
+     LUT3:I0->O            1   0.097   0.683  CM/i[31]_GND_18_o_equal_4_o<31>6_SW0 (N20)
+     LUT6:I1->O            1   0.097   0.295  CM/i[31]_GND_18_o_equal_4_o<31>8_SW0 (N18)
+     LUT6:I5->O            1   0.097   0.295  CM/_n00461_SW1 (N23)
+     LUT6:I5->O            1   0.097   0.000  CM/ena_rstpot (CM/ena_rstpot)
+     FD:D                      0.008          CM/ena
+    ----------------------------------------
+    Total                      2.204ns (0.396ns logic, 1.808ns route)
+                                       (18.0% logic, 82.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock/clkout0'
+  Total number of paths / destination ports: 80 / 80
+-------------------------------------------------------------------------
+Offset:              1.145ns (Levels of Logic = 2)
+  Source:            CM/i_0 (FF)
+  Destination:       Select<0> (PAD)
+  Source Clock:      Clock/clkout0 rising
+
+  Data Path: CM/i_0 to Select<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             69   0.361   0.392  CM/i_0 (CM/i_0)
+     INV:I->O              1   0.113   0.279  CM/Mcount_i_lut<0>_INV_0 (CM/Mcount_i_lut<0>)
+     OBUF:I->O                 0.000          Select_0_OBUF (Select<0>)
+    ----------------------------------------
+    Total                      1.145ns (0.474ns logic, 0.671ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk2_OBUF'
+  Total number of paths / destination ports: 105 / 105
+-------------------------------------------------------------------------
+Offset:              0.677ns (Levels of Logic = 1)
+  Source:            AGM/addrb_0 (FF)
+  Destination:       Addrb<0> (PAD)
+  Source Clock:      clk2_OBUF rising
+
+  Data Path: AGM/addrb_0 to Addrb<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.361   0.316  AGM/addrb_0 (AGM/addrb_0)
+     OBUF:I->O                 0.000          Addrb_0_OBUF (Addrb<0>)
+    ----------------------------------------
+    Total                      0.677ns (0.361ns logic, 0.316ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Delay:               0.302ns (Levels of Logic = 1)
+  Source:            Clock/mmcm_adv_inst:LOCKED (PAD)
+  Destination:       LOCK (PAD)
+
+  Data Path: Clock/mmcm_adv_inst:LOCKED to LOCK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    MMCME2_ADV:LOCKED      6   0.000   0.302  Clock/mmcm_adv_inst (LOCK_OBUF)
+     OBUF:I->O                 0.000          LOCK_OBUF (LOCK)
+    ----------------------------------------
+    Total                      0.302ns (0.000ns logic, 0.302ns route)
+                                       (0.0% logic, 100.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clock/clkout0
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clock/clkout0  |    3.371|         |         |         |
+clk2_OBUF      |    1.526|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk2_OBUF
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clock/clkout0  |    1.255|         |         |         |
+clk2_OBUF      |    1.873|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.15 secs
+ 
+--> 
+
+Total memory usage is 4654556 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

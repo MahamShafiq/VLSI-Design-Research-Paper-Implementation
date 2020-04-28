@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CEP -o "C:/Users/maham/Desktop/My semester/vlsi/CEP/Mux2x1.tfi" -lib work "C:/Users/maham/Desktop/My semester/vlsi/CEP//Mux2x1.v" -module Mux2x1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

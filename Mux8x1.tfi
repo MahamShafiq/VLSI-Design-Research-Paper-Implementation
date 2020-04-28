@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+Mux8x1 instance_name (
+    .a(a), 
+    .b(b), 
+    .c(c), 
+    .d(d), 
+    .e(e), 
+    .f(f), 
+    .g(g), 
+    .h(h), 
+    .sel(sel), 
+    .out(out), 
+    .clk(clk)
+    );
+
+

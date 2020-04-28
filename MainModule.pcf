@@ -1,0 +1,357 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jul 12 14:39:13 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+PIN
+        MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<65>
+        = BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKBWRCLKU;
+PIN
+        MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<64>
+        = BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKBWRCLKL;
+TIMEGRP Clock_clkout2 = BEL "Clock/clkout3_buf" BEL "Register/reg2_31" BEL
+        "Register/reg2_30" BEL "Register/reg2_29" BEL "Register/reg2_28" BEL
+        "Register/reg2_27" BEL "Register/reg2_26" BEL "Register/reg2_25" BEL
+        "Register/reg2_24" BEL "Register/reg2_23" BEL "Register/reg2_22" BEL
+        "Register/reg2_21" BEL "Register/reg2_20" BEL "Register/reg2_19" BEL
+        "Register/reg2_18" BEL "Register/reg2_17" BEL "Register/reg2_16" BEL
+        "Register/reg2_15" BEL "Register/reg2_14" BEL "Register/reg2_13" BEL
+        "Register/reg2_12" BEL "Register/reg2_11" BEL "Register/reg2_10" BEL
+        "Register/reg2_9" BEL "Register/reg2_8" BEL "Register/reg2_7" BEL
+        "Register/reg2_6" BEL "Register/reg2_5" BEL "Register/reg2_4" BEL
+        "Register/reg2_3" BEL "Register/reg2_2" BEL "Register/reg2_1" BEL
+        "Register/reg2_0" BEL "Register/reg1_31" BEL "Register/reg1_30" BEL
+        "Register/reg1_29" BEL "Register/reg1_28" BEL "Register/reg1_27" BEL
+        "Register/reg1_26" BEL "Register/reg1_25" BEL "Register/reg1_24" BEL
+        "Register/reg1_23" BEL "Register/reg1_22" BEL "Register/reg1_21" BEL
+        "Register/reg1_20" BEL "Register/reg1_19" BEL "Register/reg1_18" BEL
+        "Register/reg1_17" BEL "Register/reg1_16" BEL "Register/reg1_15" BEL
+        "Register/reg1_14" BEL "Register/reg1_13" BEL "Register/reg1_12" BEL
+        "Register/reg1_11" BEL "Register/reg1_10" BEL "Register/reg1_9" BEL
+        "Register/reg1_8" BEL "Register/reg1_7" BEL "Register/reg1_6" BEL
+        "Register/reg1_5" BEL "Register/reg1_4" BEL "Register/reg1_3" BEL
+        "Register/reg1_2" BEL "Register/reg1_1" BEL "Register/reg1_0" BEL
+        "AGM/addrb_8" BEL "AGM/addrb_7" BEL "AGM/addrb_6" BEL "AGM/addrb_5"
+        BEL "AGM/addrb_4" BEL "AGM/addrb_3" BEL "AGM/addrb_2" BEL
+        "AGM/addrb_1" BEL "AGM/addrb_0" BEL "clk2_OBUF_BUFG" BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_31"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_30"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_29"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_28"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_27"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_26"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_25"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_24"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_23"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_22"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_21"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_20"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_19"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_18"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_17"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_16"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_15"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_14"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_13"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_12"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_11"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_10"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_9"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_8"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_7"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_6"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_5"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_4"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_3"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_2"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_1"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_0"
+        BEL "clk2" PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<65>"
+        PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<64>";
+TIMEGRP Clock_clkout1 = BEL "Clock/clkout2_buf" BEL "Register/reg2_31" BEL
+        "Register/reg2_30" BEL "Register/reg2_29" BEL "Register/reg2_28" BEL
+        "Register/reg2_27" BEL "Register/reg2_26" BEL "Register/reg2_25" BEL
+        "Register/reg2_24" BEL "Register/reg2_23" BEL "Register/reg2_22" BEL
+        "Register/reg2_21" BEL "Register/reg2_20" BEL "Register/reg2_19" BEL
+        "Register/reg2_18" BEL "Register/reg2_17" BEL "Register/reg2_16" BEL
+        "Register/reg2_15" BEL "Register/reg2_14" BEL "Register/reg2_13" BEL
+        "Register/reg2_12" BEL "Register/reg2_11" BEL "Register/reg2_10" BEL
+        "Register/reg2_9" BEL "Register/reg2_8" BEL "Register/reg2_7" BEL
+        "Register/reg2_6" BEL "Register/reg2_5" BEL "Register/reg2_4" BEL
+        "Register/reg2_3" BEL "Register/reg2_2" BEL "Register/reg2_1" BEL
+        "Register/reg2_0" BEL "Register/reg1_31" BEL "Register/reg1_30" BEL
+        "Register/reg1_29" BEL "Register/reg1_28" BEL "Register/reg1_27" BEL
+        "Register/reg1_26" BEL "Register/reg1_25" BEL "Register/reg1_24" BEL
+        "Register/reg1_23" BEL "Register/reg1_22" BEL "Register/reg1_21" BEL
+        "Register/reg1_20" BEL "Register/reg1_19" BEL "Register/reg1_18" BEL
+        "Register/reg1_17" BEL "Register/reg1_16" BEL "Register/reg1_15" BEL
+        "Register/reg1_14" BEL "Register/reg1_13" BEL "Register/reg1_12" BEL
+        "Register/reg1_11" BEL "Register/reg1_10" BEL "Register/reg1_9" BEL
+        "Register/reg1_8" BEL "Register/reg1_7" BEL "Register/reg1_6" BEL
+        "Register/reg1_5" BEL "Register/reg1_4" BEL "Register/reg1_3" BEL
+        "Register/reg1_2" BEL "Register/reg1_1" BEL "Register/reg1_0" BEL
+        "AGM/addrb_8" BEL "AGM/addrb_7" BEL "AGM/addrb_6" BEL "AGM/addrb_5"
+        BEL "AGM/addrb_4" BEL "AGM/addrb_3" BEL "AGM/addrb_2" BEL
+        "AGM/addrb_1" BEL "AGM/addrb_0" BEL "clk2_OBUF_BUFG" BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_31"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_30"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_29"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_28"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_27"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_26"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_25"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_24"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_23"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_22"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_21"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_20"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_19"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_18"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_17"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_16"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_15"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_14"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_13"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_12"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_11"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_10"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_9"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_8"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_7"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_6"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_5"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_4"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_3"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_2"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_1"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_0"
+        BEL "clk2" PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<65>"
+        PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<64>";
+PIN Clock/mmcm_adv_inst_pins<2> = BEL "Clock/mmcm_adv_inst" PINNAME CLKIN1;
+TIMEGRP CLK = PIN "Clock/mmcm_adv_inst_pins<2>";
+PIN
+        MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>
+        = BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKU;
+PIN
+        MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>
+        = BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram"
+        PINNAME CLKARDCLKL;
+TIMEGRP Clock_clkout0 = BEL "CM/i_31" BEL "CM/i_30" BEL "CM/i_29" BEL
+        "CM/i_28" BEL "CM/i_27" BEL "CM/i_26" BEL "CM/i_25" BEL "CM/i_24" BEL
+        "CM/i_23" BEL "CM/i_22" BEL "CM/i_21" BEL "CM/i_20" BEL "CM/i_19" BEL
+        "CM/i_18" BEL "CM/i_17" BEL "CM/i_16" BEL "CM/i_15" BEL "CM/i_14" BEL
+        "CM/i_13" BEL "CM/i_12" BEL "CM/i_11" BEL "CM/i_10" BEL "CM/i_9" BEL
+        "CM/i_8" BEL "CM/i_7" BEL "CM/i_6" BEL "CM/i_5" BEL "CM/i_4" BEL
+        "CM/i_3" BEL "CM/i_2" BEL "CM/i_1" BEL "CM/i_0" BEL "CM/selectline_2"
+        BEL "CM/selectline_1" BEL "CM/enwr" BEL "Register/reg2_31" BEL
+        "Register/reg2_30" BEL "Register/reg2_29" BEL "Register/reg2_28" BEL
+        "Register/reg2_27" BEL "Register/reg2_26" BEL "Register/reg2_25" BEL
+        "Register/reg2_24" BEL "Register/reg2_23" BEL "Register/reg2_22" BEL
+        "Register/reg2_21" BEL "Register/reg2_20" BEL "Register/reg2_19" BEL
+        "Register/reg2_18" BEL "Register/reg2_17" BEL "Register/reg2_16" BEL
+        "Register/reg2_15" BEL "Register/reg2_14" BEL "Register/reg2_13" BEL
+        "Register/reg2_12" BEL "Register/reg2_11" BEL "Register/reg2_10" BEL
+        "Register/reg2_9" BEL "Register/reg2_8" BEL "Register/reg2_7" BEL
+        "Register/reg2_6" BEL "Register/reg2_5" BEL "Register/reg2_4" BEL
+        "Register/reg2_3" BEL "Register/reg2_2" BEL "Register/reg2_1" BEL
+        "Register/reg2_0" BEL "Register/reg1_31" BEL "Register/reg1_30" BEL
+        "Register/reg1_29" BEL "Register/reg1_28" BEL "Register/reg1_27" BEL
+        "Register/reg1_26" BEL "Register/reg1_25" BEL "Register/reg1_24" BEL
+        "Register/reg1_23" BEL "Register/reg1_22" BEL "Register/reg1_21" BEL
+        "Register/reg1_20" BEL "Register/reg1_19" BEL "Register/reg1_18" BEL
+        "Register/reg1_17" BEL "Register/reg1_16" BEL "Register/reg1_15" BEL
+        "Register/reg1_14" BEL "Register/reg1_13" BEL "Register/reg1_12" BEL
+        "Register/reg1_11" BEL "Register/reg1_10" BEL "Register/reg1_9" BEL
+        "Register/reg1_8" BEL "Register/reg1_7" BEL "Register/reg1_6" BEL
+        "Register/reg1_5" BEL "Register/reg1_4" BEL "Register/reg1_3" BEL
+        "Register/reg1_2" BEL "Register/reg1_1" BEL "Register/reg1_0" BEL
+        "AGM/addra_10" BEL "AGM/addra_9" BEL "AGM/addra_8" BEL "AGM/addra_7"
+        BEL "AGM/addra_6" BEL "AGM/addra_5" BEL "AGM/addra_4" BEL
+        "AGM/addra_3" BEL "AGM/addra_2" BEL "AGM/addra_1" BEL "AGM/addra_0"
+        BEL "AGM/addrb_8" BEL "AGM/addrb_7" BEL "AGM/addrb_6" BEL
+        "AGM/addrb_5" BEL "AGM/addrb_4" BEL "AGM/addrb_3" BEL "AGM/addrb_2"
+        BEL "AGM/addrb_1" BEL "AGM/addrb_0" BEL "SteerModule/M1/out_0" BEL
+        "SteerModule/M1/out_1" BEL "SteerModule/M1/out_2" BEL
+        "SteerModule/M1/out_3" BEL "SteerModule/M1/out_4" BEL
+        "SteerModule/M1/out_5" BEL "SteerModule/M1/out_6" BEL
+        "SteerModule/M1/out_7" BEL "SteerModule/M2/out_0" BEL
+        "SteerModule/M2/out_1" BEL "SteerModule/M2/out_2" BEL
+        "SteerModule/M2/out_3" BEL "SteerModule/M2/out_4" BEL
+        "SteerModule/M2/out_5" BEL "SteerModule/M2/out_6" BEL
+        "SteerModule/M2/out_7" BEL "SteerModule/M3/out_0" BEL
+        "SteerModule/M3/out_1" BEL "SteerModule/M3/out_2" BEL
+        "SteerModule/M3/out_3" BEL "SteerModule/M3/out_4" BEL
+        "SteerModule/M3/out_5" BEL "SteerModule/M3/out_6" BEL
+        "SteerModule/M3/out_7" BEL "SteerModule/M4/out_0" BEL
+        "SteerModule/M4/out_1" BEL "SteerModule/M4/out_2" BEL
+        "SteerModule/M4/out_3" BEL "SteerModule/M4/out_4" BEL
+        "SteerModule/M4/out_5" BEL "SteerModule/M4/out_6" BEL
+        "SteerModule/M4/out_7" BEL "SteerModule/M5/out_0" BEL
+        "SteerModule/M5/out_1" BEL "SteerModule/M5/out_2" BEL
+        "SteerModule/M5/out_3" BEL "SteerModule/M5/out_4" BEL
+        "SteerModule/M5/out_5" BEL "SteerModule/M5/out_6" BEL
+        "SteerModule/M5/out_7" BEL "SteerModule/M6/out_0" BEL
+        "SteerModule/M6/out_1" BEL "SteerModule/M6/out_2" BEL
+        "SteerModule/M6/out_3" BEL "SteerModule/M6/out_4" BEL
+        "SteerModule/M6/out_5" BEL "SteerModule/M6/out_6" BEL
+        "SteerModule/M6/out_7" BEL "SteerModule/M7/out_0" BEL
+        "SteerModule/M7/out_1" BEL "SteerModule/M7/out_2" BEL
+        "SteerModule/M7/out_3" BEL "SteerModule/M7/out_4" BEL
+        "SteerModule/M7/out_5" BEL "SteerModule/M7/out_6" BEL
+        "SteerModule/M7/out_7" BEL "SteerModule/M8/out_0" BEL
+        "SteerModule/M8/out_1" BEL "SteerModule/M8/out_2" BEL
+        "SteerModule/M8/out_3" BEL "SteerModule/M8/out_4" BEL
+        "SteerModule/M8/out_5" BEL "SteerModule/M8/out_6" BEL
+        "SteerModule/M8/out_7" BEL "CM/resetaddr" BEL "CM/ena" BEL "CM/i_0_1"
+        BEL "clk2_OBUF_BUFG" BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_31"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_30"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_29"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_28"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_27"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_26"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_25"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_24"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_23"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_22"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_21"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_20"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_19"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_18"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_17"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_16"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_15"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_14"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_13"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_12"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_11"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_10"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_9"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_8"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_7"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_6"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_5"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_4"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_3"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_2"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_1"
+        BEL
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i_0"
+        BEL "clk1" BEL "clk2" PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<63>"
+        PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<62>"
+        PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<65>"
+        PIN
+        "MM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_pins<64>"
+        BEL "Clock/clkout1_buf";
+TS_CLK = PERIOD TIMEGRP "CLK" 8 ns HIGH 50%;
+TS_Clock_clkout0 = PERIOD TIMEGRP "Clock_clkout0" TS_CLK HIGH 50%;
+TS_Clock_clkout1 = PERIOD TIMEGRP "Clock_clkout1" TS_CLK HIGH 25%;
+TS_Clock_clkout2 = PERIOD TIMEGRP "Clock_clkout2" TS_CLK PHASE 4 ns HIGH 25%;
+SCHEMATIC END;
+
