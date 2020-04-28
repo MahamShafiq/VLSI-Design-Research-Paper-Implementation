@@ -1,0 +1,76 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/maham/Desktop/My semester/vlsi/CEP/testwhenexternalmemoryishere_isim_par.exe -prj C:/Users/maham/Desktop/My semester/vlsi/CEP/testwhenexternalmemoryishere_par.prj work.testwhenexternalmemoryishere work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/maham/Desktop/My semester/vlsi/CEP/netgen/par/MainModule_timesim.v" into library work
+Analyzing Verilog file "C:/Users/maham/Desktop/My semester/vlsi/CEP/testwhenexternalmemoryishere.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 1940: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 1944: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 1948: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 1952: Element index 7 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2061: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2065: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2069: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2073: Element index 7 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2202: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2206: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2210: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2214: Element index 7 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2343: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2347: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2351: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2355: Element index 7 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2481: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2482: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2483: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2484: Element index 7 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2619: Element index 39 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2620: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2625: Element index 47 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2626: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2631: Element index 55 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2632: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2637: Element index 63 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2638: Element index 7 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2803: Element index 39 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2804: Element index 4 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2809: Element index 47 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2810: Element index 5 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2815: Element index 55 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2816: Element index 6 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2821: Element index 63 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/simprims/X_RAMB36E1.v" Line 2822: Element index 7 into memp is out of bounds
+Completed static elaboration
+Compiling module X_LUT6(INIT=64'b0100000000000000...
+Compiling module X_LUT5(INIT=32'b1111111111111111...
+Compiling module X_ONE
+Compiling module X_CARRY4
+Compiling module X_BUF
+Compiling module X_RB36_INTERNAL_VLOG(DOA_REG=0,D...
+Compiling module X_RAMB36E1(READ_WIDTH_A=36,READ_...
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module X_ZERO
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module X_IPAD
+Compiling module X_IBUF_INTERMDISABLE_TPWRGT(LOC=...
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_CKBUF
+Compiling module X_MMCME2_ADV(CLKOUT1_DIVIDE=10,C...
+Compiling module X_INV(LOC="OLOGIC_X0Y174")
+Compiling module X_FF(INIT=1'b1)
+Compiling module sffsrce
+Compiling module X_SFF
+Compiling module MainModule
+Compiling module testwhenexternalmemoryishere
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 796 Verilog Units
+Built simulation executable C:/Users/maham/Desktop/My semester/vlsi/CEP/testwhenexternalmemoryishere_isim_par.exe
+Fuse Memory Usage: 89384 KB
+Fuse CPU Usage: 5905 ms

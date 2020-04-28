@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/maham/Desktop/My semester/vlsi/CEP/AGMtest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="AGMtest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/AGMtest/addra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AGMtest/addrb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AGMtest/Enwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Enwr</obj_property>
+      <obj_property name="ObjectShortName">Enwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AGMtest/Enrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Enrd</obj_property>
+      <obj_property name="ObjectShortName">Enrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AGMtest/Readclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Readclk</obj_property>
+      <obj_property name="ObjectShortName">Readclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AGMtest/Writeclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Writeclk</obj_property>
+      <obj_property name="ObjectShortName">Writeclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AGMtest/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>
