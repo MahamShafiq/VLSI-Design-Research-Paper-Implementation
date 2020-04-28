@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">Clock/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Clock_clkout1 = PERIOD &quot;Clock_clkout1&quot; TS_CLK HIGH 25%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">Clock/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Clock_clkout0 = PERIOD &quot;Clock_clkout0&quot; TS_CLK HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">Clock/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Clock_clkout2 = PERIOD &quot;Clock_clkout2&quot; TS_CLK PHASE 4 ns HIGH 25%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1440" delta="new" >User specified non-default attribute value (<arg fmt="%s" index="1">10</arg>) was detected for the <arg fmt="%s" index="2">CLKIN1_PERIOD</arg> attribute on <arg fmt="%s" index="3">MMCM</arg> &quot;<arg fmt="%s" index="4">Clock/mmcm_adv_inst</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">8 ns.</arg>).  The uncertainty calculation will use the PERIOD constraint value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">MMCM</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="478" delta="old" >clock net <arg fmt="%s" index="1">CLK_OUT2</arg> with clock driver <arg fmt="%s" index="2">Clock/clkout2_buf</arg> drives no clock pins
+</msg>
+
+<msg type="warning" file="NgdBuild" num="478" delta="old" >clock net <arg fmt="%s" index="1">CLK_OUT3</arg> with clock driver <arg fmt="%s" index="2">Clock/clkout3_buf</arg> drives no clock pins
+</msg>
+
+</messages>
+
